@@ -1,0 +1,69 @@
+
+body {
+   
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    color: white; /* Define a cor do texto como branco para contraste com o fundo preto */
+    background: url('https://www.10wallpaper.com/wallpaper/1366x768/1808/Valentines_Day_2018_Romantic_Love_4K_HD_1366x768.jpg') no-repeat center center fixed; /* Define a imagem de fundo, sem repetição, centralizada e fixa */
+    background-size: cover;/* faz com que a imagem cubra todo o fundo */
+}
+
+/* Estiliza o elemento principal da página */
+main {
+    text-align: center; /* Centraliza o texto dentro do main */
+    margin: 100px auto; /* Adiciona espaço ao redor do conteúdo e centraliza o main horizontalmente */
+}
+
+/* Estilo do contêiner que envolve o conteúdo principal */
+#container {
+    display: block; /* Define que o contêiner será um bloco */
+    width: 400px; /* Define a largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Define a fonte do título */
+    font-size: 65px; /* Define o tamanho da fonte do título */
+    color: rgb(255, 255, 255); /* Define a cor do texto do título como branco */
+    text-shadow: rgb(0, 0, 0) 4px 2.5px 2px; /* Adiciona uma sombra ao texto para destaque */
+}
+
+/* Estilo do contêiner dos botões */
+#bot {
+    margin-top: 50px; /* Adiciona espaço acima do contêiner dos botões para separação do título */
+    display: flex; /* Usa flexbox para alinhar os botões */
+    justify-content: center; /* Centraliza os botões horizontalmente dentro do contêiner */
+}
+
+/* Estilo dos botões */
+button {
+    font-size: large; /* Define o tamanho da fonte dos botões */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Define a fonte dos botões */
+    color: rgb(255, 255, 255); /* Define a cor do texto dos botões como branco */
+    text-shadow: rgb(0, 0, 0) 4px 2.5px 2px; /* Adiciona uma sombra ao texto dos botões para destaque */
+    width: 150px; /* Define a largura dos botões */
+    height: 55px; /* Define a altura dos botões */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 60px; /* Adiciona bordas arredondadas aos botões */
+    margin: 0 10px; /* Adiciona espaçamento horizontal entre os botões */
+}
+
+/* Estilo específico para o botão "Sim" */
+#sim {
+    background-color: rgb(52, 134, 52); /* Define o fundo do botão "Sim" como verde */
+}
+
+/* Estilo específico para o botão "Não" */
+.mover {
+    background-color: rgb(206, 83, 83); /* Define o fundo do botão "Não" como vermelho */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 30px; /* Define o tamanho da fonte do parágrafo */
+    text-align: center; /* Centraliza o texto dentro do parágrafo */
+    color: rgb(255, 255, 255); /* Define a cor do texto do parágrafo como branco */
+    text-shadow: rgb(0, 0, 0) 4px 2.5px 2px; /* Adiciona uma sombra ao texto do parágrafo para destaque */
+    margin: 20px 0; /* Adiciona espaço acima e abaixo do parágrafo */
+}
